@@ -171,8 +171,6 @@
 		9F4A27BB223BE55B005CB63A /* bio.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F4A2770223BE55A005CB63A /* bio.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F4A27BE223BE57C005CB63A /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4A27BC223BE57C005CB63A /* libcrypto.a */; };
 		9F4A27BF223BE57C005CB63A /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4A27BD223BE57C005CB63A /* libssl.a */; };
-		E914B7972BC6ABD30005DA48 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = E914B7962BC6ABD30005DA48 /* PrivacyInfo.xcprivacy */; };
-		E914B7982BC6ABD30005DA48 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = E914B7962BC6ABD30005DA48 /* PrivacyInfo.xcprivacy */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -344,7 +342,6 @@
 		9F4A2770223BE55A005CB63A /* bio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bio.h; path = macos/include/openssl/bio.h; sourceTree = "<group>"; };
 		9F4A27BC223BE57C005CB63A /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = macos/lib/libcrypto.a; sourceTree = "<group>"; };
 		9F4A27BD223BE57C005CB63A /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = macos/lib/libssl.a; sourceTree = "<group>"; };
-		E914B7962BC6ABD30005DA48 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -372,7 +369,6 @@
 		9F4A2626223BCE31005CB63A = {
 			isa = PBXGroup;
 			children = (
-				E914B7962BC6ABD30005DA48 /* PrivacyInfo.xcprivacy */,
 				9F4A266C223BD8BD005CB63A /* OpenSSL (iOS) */,
 				9F4A271E223BE4D3005CB63A /* OpenSSL (macOS) */,
 				9F4A264F223BD6C6005CB63A /* Products */,
@@ -855,7 +851,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E914B7972BC6ABD30005DA48 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -863,7 +858,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E914B7982BC6ABD30005DA48 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
