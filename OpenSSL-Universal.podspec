@@ -51,4 +51,6 @@ Pod::Spec.new do |s|
     sp.osx.deployment_target = '10.9'
     sp.osx.vendored_frameworks = 'Frameworks/macos/OpenSSL.framework'
   end
+
+  s.resource_bundles = {s.name => ['PrivacyInfo.xcprivacy']}
 end
